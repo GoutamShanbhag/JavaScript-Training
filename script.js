@@ -1,3 +1,5 @@
+
+//Function to check the validity of a password
 const isValidFunction = (passWord, userName)=>{
     if(passWord.length<8){
         return false;
