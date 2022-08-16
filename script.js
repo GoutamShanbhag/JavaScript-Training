@@ -1,6 +1,6 @@
 
 //Function to check the validity of a password
-const isValidFunction = (passWord, userName)=>{
+const isValidPassword = (passWord, userName)=>{
     if(passWord.length<8){
         return false;
     }
@@ -17,7 +17,7 @@ const isValidFunction = (passWord, userName)=>{
 }
 
 //Function to get the average of numbers
-const avg = (nums)=>{
+const isAverage = (nums)=>{
     let sum =0;
     for(let i of nums){
         sum+=i;
@@ -27,7 +27,7 @@ const avg = (nums)=>{
 }
 
 //Function to check pangram
-const pangram = (str)=>{
+const isPangram = (str)=>{
     const allLettes = "abcdefghijklmnopqrstuvwxyz";
     str = str.toLowerCase();
 
