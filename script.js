@@ -70,3 +70,4 @@ console.log(isValidFunction("llllPassword","Hey"));
 console.log(avg([1,2,3,44,5]));
 console.log(pangram("oxing wizards jump quickly"));
 console.log(getCard())
+
