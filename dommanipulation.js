@@ -57,7 +57,7 @@ const data = [
 ];
 
 let count = 0;
-let backgroundColor = document.body.style;
+let bodyStyle = document.body.style;
 let allLables = document.getElementsByTagName("label");
 let about = document.getElementById("about");
 let nameLabel = document.getElementById("name");
@@ -68,7 +68,7 @@ let changeButton = document.getElementById("button");
 
 const change = () => {
   // Changes the background
-  backgroundColor.backgroundColor = data[count].backgroundColor;
+  bodyStyle.backgroundColor = data[count].backgroundColor;
 
   // Changes the text color
   for (let label of allLables) {
