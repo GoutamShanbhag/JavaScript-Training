@@ -1,4 +1,4 @@
-const promisefunction = () => {
+const promiseFunction = () => {
   const promise1 = new Promise((resolve, reject) => {
     resolve("promise1 resolved");
   });
@@ -28,7 +28,7 @@ const promisefunction = () => {
     });
 };
 
-promisefunction();
+promiseFunction();
 
 //Sequential Promise
 
